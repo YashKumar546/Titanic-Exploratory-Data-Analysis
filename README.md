@@ -1,46 +1,49 @@
+# 🚢 Titanic Exploratory Data Analysis (EDA)
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-# 🚢 Titanic Exploratory Data Analysis (EDA)
-
-An Exploratory Data Analysis (EDA) project on the **Titanic Dataset** using Python. This project explores passenger demographics, survival patterns, missing values, feature distributions, and correlations through statistical analysis, data visualization, and an automated profiling report.
+An Exploratory Data Analysis (EDA) project on the **Titanic Dataset** using Python. This project explores passenger demographics, survival patterns, missing values, feature distributions, and correlations using statistical analysis, data visualization, and an automated profiling report.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-Exploratory Data Analysis (EDA) is the first and one of the most important steps in any Data Science or Machine Learning workflow.
+Exploratory Data Analysis (EDA) is an essential step in the Data Science workflow. This project analyzes the famous Titanic dataset to understand its structure, identify patterns, detect missing values, and generate meaningful insights through visualizations and automated profiling.
 
-In this project, the Titanic dataset is analyzed using Python libraries to:
+---
 
-- Understand the dataset
+# 🎯 Objectives
+
+- Understand the dataset structure
+- Perform exploratory data analysis
 - Identify missing values
-- Explore feature distributions
-- Analyze survival patterns
-- Detect correlations
+- Analyze numerical and categorical features
+- Visualize important patterns
 - Generate an automated HTML profiling report
+- Summarize key insights
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 📊 Dataset exploration
-- 📈 Statistical summary
-- 🧹 Missing value analysis
-- 🔍 Duplicate value detection
-- 📉 Distribution plots
-- 📦 Boxplots for outlier detection
+- 📊 Dataset Overview
+- 📈 Statistical Summary
+- 🧹 Missing Value Analysis
+- 🔍 Duplicate Value Detection
+- 📉 Distribution Analysis
+- 📦 Outlier Detection
 - 🔥 Correlation Heatmap
 - 📑 Automated HTML Profiling Report
 - 💡 Key Insights
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 | Technology | Purpose |
 |------------|----------|
@@ -54,7 +57,7 @@ In this project, the Titanic dataset is analyzed using Python libraries to:
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 Titanic-Exploratory-Data-Analysis/
@@ -65,13 +68,12 @@ Titanic-Exploratory-Data-Analysis/
 ├── requirements.txt
 ├── README.md
 └── screenshots/
-    ├── notebook.png
-    └── report.png
+    ├── ...
 ```
 
 ---
 
-## 📊 Exploratory Data Analysis
+# 📊 Exploratory Data Analysis
 
 The notebook includes:
 
@@ -88,80 +90,126 @@ The notebook includes:
 - Age Distribution
 - Fare Distribution
 - Correlation Heatmap
-- Automated HTML Profiling Report
+- Automated Data Profiling Report
 
 ---
 
-## 📈 Visualizations
+# 📑 Automated Data Profiling
 
-The project includes multiple visualizations such as:
+This project uses **fg-data-profiling** to automatically generate an interactive HTML report containing:
 
-- Survival Count Plot
-- Gender Distribution
-- Passenger Class Distribution
-- Age Histogram
-- Fare Histogram
-- Age Boxplot
-- Correlation Heatmap
-
----
-
-## 📑 Automated Data Profiling Report
-
-A complete HTML profiling report was generated using **fg-data-profiling**.
-
-The report includes:
-
-- Dataset Overview
+- Dataset Summary
 - Missing Values
-- Descriptive Statistics
-- Correlation Analysis
+- Correlations
 - Variable Distributions
 - Data Quality Warnings
 - Duplicate Analysis
+- Statistical Information
 
 ---
 
-## 💡 Key Insights
+# 📈 Key Insights
 
 - The dataset contains **891 passenger records** and **12 features**.
 - The **Age** and **Cabin** columns contain missing values.
 - Most passengers traveled in **Third Class (Pclass = 3)**.
 - Male passengers outnumber female passengers.
-- Female passengers had a noticeably higher survival rate than male passengers.
+- Female passengers had a higher survival rate than male passengers.
 - The Fare distribution is positively skewed with several high-value outliers.
-- No duplicate records were found in the dataset.
-- The automated profiling report provides additional statistical insights and correlation analysis.
+- No duplicate records were found.
+- The profiling report provides comprehensive statistical analysis and correlations.
 
 ---
 
-## 🚀 Getting Started
+# 📸 Project Screenshots
 
-### 1️⃣ Clone the Repository
+> Replace the filenames below with your actual screenshot names if they are different.
+
+### Dataset Overview
+
+![Dataset Overview](screenshots/dataset_overview.png)
+
+---
+
+### Survival Count
+
+![Survival Count](screenshots/survival_count.png)
+
+---
+
+### Gender Distribution
+
+![Gender Distribution](screenshots/gender_distribution.png)
+
+---
+
+### Passenger Class Distribution
+
+![Passenger Class Distribution](screenshots/passenger_class_distribution.png)
+
+---
+
+### Age Distribution
+
+![Age Distribution](screenshots/age_distribution.png)
+
+---
+
+### Fare Distribution
+
+![Fare Distribution](screenshots/fare_distribution.png)
+
+---
+
+### Age Boxplot
+
+![Age Boxplot](screenshots/age_boxplot.png)
+
+---
+
+### Correlation Heatmap
+
+![Correlation Heatmap](screenshots/correlation_heatmap.png)
+
+---
+
+### HTML Profiling Report
+
+![HTML Report](screenshots/report.png)
+
+---
+
+# 🚀 Getting Started
+
+## Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Titanic-Exploratory-Data-Analysis.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/Titanic-Exploratory-Data-Analysis.git
 ```
 
-### 2️⃣ Install Dependencies
+---
+
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Notebook
+---
+
+## Run the Project
 
 Open **EDA_Titanic.ipynb** using:
 
 - Google Colab
-- Jupyter Notebook
 - VS Code
+- Jupyter Notebook
 
-Run all cells to generate the visualizations and HTML profiling report.
+Run all notebook cells to perform the analysis and generate the HTML profiling report.
 
 ---
 
-## 📦 Requirements
+# 📦 Requirements
 
 ```
 pandas
@@ -173,42 +221,26 @@ fg-data-profiling
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots after uploading them.
-
-### Notebook
-
-```
-screenshots/notebook.png
-```
-
-### HTML Profiling Report
-
-```
-screenshots/report.png
-```
-
----
-
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 - Interactive dashboards using Plotly
-- Machine Learning prediction model
-- Feature engineering
-- Advanced statistical analysis
+- Predictive Machine Learning model
+- Feature Engineering
+- Advanced Statistical Analysis
+- Interactive Web Dashboard
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Yash Kumar**
 
-B.Tech Computer Science Engineering  
+B.Tech Computer Science Engineering
+
 DY Patil International University
 
 ---
 
-## ⭐ Support
+# ⭐ Show Your Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
