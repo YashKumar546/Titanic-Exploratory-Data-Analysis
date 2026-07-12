@@ -7,13 +7,13 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-An Exploratory Data Analysis (EDA) project on the **Titanic Dataset** using Python. This project explores passenger demographics, survival patterns, missing values, feature distributions, and correlations using statistical analysis, data visualization, and an automated profiling report.
+An Exploratory Data Analysis (EDA) project on the **Titanic Dataset** using Python. This project explores passenger demographics, survival patterns, missing values, feature distributions, and correlations through statistical analysis, visualization, and automated profiling.
 
 ---
 
 # 📌 Project Overview
 
-Exploratory Data Analysis (EDA) is an essential step in the Data Science workflow. This project analyzes the famous Titanic dataset to understand its structure, identify patterns, detect missing values, and generate meaningful insights through visualizations and automated profiling.
+Exploratory Data Analysis (EDA) is one of the most important steps in the Data Science workflow. This project analyzes the Titanic dataset to understand its structure, identify patterns, detect missing values, and generate meaningful insights through visualizations and statistical summaries.
 
 ---
 
@@ -52,7 +52,7 @@ Exploratory Data Analysis (EDA) is an essential step in the Data Science workflo
 | NumPy | Numerical Computing |
 | Matplotlib | Data Visualization |
 | Seaborn | Statistical Visualization |
-| fg-data-profiling | Automated EDA Report |
+| fg-data-profiling | Automated Data Profiling |
 | Google Colab | Development Environment |
 
 ---
@@ -67,8 +67,9 @@ Titanic-Exploratory-Data-Analysis/
 ├── report.html
 ├── requirements.txt
 ├── README.md
+├── LICENSE
+├── .gitignore
 └── screenshots/
-    ├── ...
 ```
 
 ---
@@ -94,20 +95,6 @@ The notebook includes:
 
 ---
 
-# 📑 Automated Data Profiling
-
-This project uses **fg-data-profiling** to automatically generate an interactive HTML report containing:
-
-- Dataset Summary
-- Missing Values
-- Correlations
-- Variable Distributions
-- Data Quality Warnings
-- Duplicate Analysis
-- Statistical Information
-
----
-
 # 📈 Key Insights
 
 - The dataset contains **891 passenger records** and **12 features**.
@@ -116,66 +103,74 @@ This project uses **fg-data-profiling** to automatically generate an interactive
 - Male passengers outnumber female passengers.
 - Female passengers had a higher survival rate than male passengers.
 - The Fare distribution is positively skewed with several high-value outliers.
-- No duplicate records were found.
-- The profiling report provides comprehensive statistical analysis and correlations.
+- No duplicate records were found in the dataset.
+- The automated profiling report provides comprehensive statistical analysis and correlation insights.
 
 ---
 
 # 📸 Project Screenshots
 
-> Replace the filenames below with your actual screenshot names if they are different.
+## Dataset Overview
 
-### Dataset Overview
-
-![Dataset Overview](screenshots/dataset_overview.png)
+![Dataset Overview](screenshots/Dataset%20Overview.png)
 
 ---
 
-### Survival Count
+## Survival Count
 
-![Survival Count](screenshots/survival_count.png)
-
----
-
-### Gender Distribution
-
-![Gender Distribution](screenshots/gender_distribution.png)
+![Survival Count](screenshots/Survival%20Count.png)
 
 ---
 
-### Passenger Class Distribution
+## Gender Distribution
 
-![Passenger Class Distribution](screenshots/passenger_class_distribution.png)
-
----
-
-### Age Distribution
-
-![Age Distribution](screenshots/age_distribution.png)
+![Gender Distribution](screenshots/Gender%20Distribution.png)
 
 ---
 
-### Fare Distribution
+## Passenger Class Distribution
 
-![Fare Distribution](screenshots/fare_distribution.png)
-
----
-
-### Age Boxplot
-
-![Age Boxplot](screenshots/age_boxplot.png)
+![Passenger Class Distribution](screenshots/Passenger%20Class%20Distribution.png)
 
 ---
 
-### Correlation Heatmap
+## Age Distribution
 
-![Correlation Heatmap](screenshots/correlation_heatmap.png)
+![Age Distribution](screenshots/Age%20Distribution.png)
 
 ---
 
-### HTML Profiling Report
+## Fare Distribution
 
-![HTML Report](screenshots/report.png)
+![Fare Distribution](screenshots/Fare%20Distribution.png)
+
+---
+
+## Age Boxplot
+
+![Age Boxplot](screenshots/Age%20Boxplot.png)
+
+---
+
+## Correlation Heatmap
+
+![Correlation Heatmap](screenshots/Correlation%20Heatmap.png)
+
+---
+
+# 📑 Automated Data Profiling
+
+The project generates an interactive **HTML profiling report** using **fg-data-profiling**, providing:
+
+- Dataset Overview
+- Missing Value Analysis
+- Statistical Summary
+- Correlation Analysis
+- Variable Distributions
+- Data Quality Warnings
+- Duplicate Detection
+
+The generated report is included in this repository as **`report.html`**.
 
 ---
 
@@ -184,10 +179,8 @@ This project uses **fg-data-profiling** to automatically generate an interactive
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/Titanic-Exploratory-Data-Analysis.git
+git clone https://github.com/YOUR_USERNAME/Titanic-Exploratory-Data-Analysis.git
 ```
-
----
 
 ## Install Dependencies
 
@@ -195,9 +188,7 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/Titanic-Exploratory-Data-Analy
 pip install -r requirements.txt
 ```
 
----
-
-## Run the Project
+## Run the Notebook
 
 Open **EDA_Titanic.ipynb** using:
 
@@ -205,7 +196,7 @@ Open **EDA_Titanic.ipynb** using:
 - VS Code
 - Jupyter Notebook
 
-Run all notebook cells to perform the analysis and generate the HTML profiling report.
+Run all notebook cells to reproduce the analysis and generate the HTML profiling report.
 
 ---
 
@@ -224,10 +215,9 @@ fg-data-profiling
 # 🔮 Future Improvements
 
 - Interactive dashboards using Plotly
-- Predictive Machine Learning model
+- Machine Learning prediction model
 - Feature Engineering
-- Advanced Statistical Analysis
-- Interactive Web Dashboard
+- Advanced statistical analysis
 
 ---
 
@@ -241,6 +231,6 @@ DY Patil International University
 
 ---
 
-# ⭐ Show Your Support
+# ⭐ Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
