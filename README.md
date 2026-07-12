@@ -179,7 +179,7 @@ The generated report is included in this repository as **`report.html`**.
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/YashKumar546/Titanic-Exploratory-Data-Analysis.git
+git clone https://github.com/YashKumar546/Titanic-Exploratory-Data-Analysis
 ```
 
 ## Install Dependencies
