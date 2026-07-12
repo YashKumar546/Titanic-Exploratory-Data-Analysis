@@ -1,3 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # 🚢 Titanic Exploratory Data Analysis (EDA)
 
 An Exploratory Data Analysis (EDA) project on the **Titanic Dataset** using Python. This project explores passenger demographics, survival patterns, missing values, feature distributions, and correlations through statistical analysis, data visualization, and an automated profiling report.
